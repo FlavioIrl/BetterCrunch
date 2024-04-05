@@ -1,0 +1,231 @@
+
+header {
+    background-color: #100f0f;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: none;
+    --bs-dropdown-link-hover-bg: #794305;
+    --bs-btn-hover-bg: #f7b764;
+}
+
+body {
+    background-color: #000000;
+}
+
+.icon-pesquisa{
+    margin-top: 10px;
+    background-color: transparent;
+    width: 28px;
+    height: 57px;
+    background-image: url('./images/search-icon-1023x1024-cz5u4134.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+
+.navbar h1 {
+    color:#ff8800;
+    font-size: 38px;
+}
+
+.btn-group button {
+    background-color: #ff8800;
+    padding: 10px;
+    padding-inline: 36px;
+    margin-top: 10px;
+}
+
+.btn-group .dropdown-menu {
+    background-color: #ff8800;
+}
+
+.dropdown-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.carousel-indicators {
+    display: block;
+    bottom: none;
+    justify-content: none;
+    margin-bottom: 20rem;
+}
+
+.btn-next-capa, .btn-prev-capa{
+    width: 6%;
+}
+
+.logo-anime {
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom center;
+    width: 35%;
+    margin-top: -1153px;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.resumo-anime{
+    font-size: 11px;
+}
+
+.info-imagem p{
+    display: none;
+}
+
+.info-imagem:hover{
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.info-imagem:hover p{
+    display: block;
+}
+
+.capa-anime {
+    position: relative;
+    margin-bottom: -30px;
+}
+
+.lista-anime {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.anime-list {
+    margin: 0 auto;
+    padding-inline: 34px;
+    margin-bottom: 15px;
+}
+
+.titulo-divisao{
+    color: #fff;
+}
+
+.btn-next-list ,.btn-prev-list{
+    width: 2%;
+    margin-top: 65px;
+}
+
+.container {
+    position: relative;
+}
+
+.imagem-meio{
+    cursor: pointer;
+}
+
+.row {
+    margin-right: calc(2.5* var(--bs-gutter-x));
+    --bs-gutter-x: 0.5rem;
+}
+
+footer p {
+    padding: 10px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 0rem;
+    background-color: #100f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0.9;
+}
+
+.conteudo{
+    position: relative;
+    left: 0px;
+    top: -195px;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar h1 {
+        color:#ff8800;
+        font-size: 20px;
+    }
+    .icon-pesquisa{
+        margin-top: 10px;
+        width: 17px;
+    }
+    .btn-group button {
+        padding-inline: 1px;
+        margin-top: 4px;
+        margin-left: -3px;
+        padding: 1px;
+        font-size: 21px;
+    }
+    .logo-anime {
+        margin-top: -396px;
+    }
+    .carousel-indicators{
+        position: relative;
+        left: -26px;
+        top: -94px;
+        z-index: 2;
+        margin-bottom: 0px;
+    }
+    .resumo-anime{
+        font-size: 20px;
+    }
+    .card-title {
+        font-size: 26px;
+    }
+    .conteudo{
+        top: -50px;
+        z-index: 1;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .logo-anime {
+        margin-top: -654px;
+        margin-bottom: 0px;
+    }
+    .carousel-indicators{
+        position: relative;
+        left: -8px;
+        top: -213px;
+        z-index: 2;
+        margin-bottom: 0px;
+    }
+    .icon-pesquisa{
+        margin-top: 10px;
+        margin-left: 70px;
+        width: 29px;
+    }
+    .resumo-anime{
+        font-size: 15px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .conteudo{
+        top: -91px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .conteudo{
+        top: -256px;
+    }
+}
+footer a {
+    text-decoration: underline;
+    color: #ff8800;
+}
+

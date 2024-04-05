@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetterCrunch</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <h1>BetterCrunch</h1>
+                <div class="btn-group">
+                    <button class="btn btn-dark dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown">
+                        <span>Navegar</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a href="#">Populares</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">A-Z</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">Simulcasts da Temporada</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">Gêneros</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                        <span>Notícias</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a href="#">Todas as Notícias</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">Proximos Lançamentos</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">Anime Awards</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="icon-pesquisa"></button>
+            </div>
+        </div>
+    </header>
+    <div class="capa-anime">
+        <div id="carousel-exemplo" data-bs-ride="carousel" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div data-bs-interval="7000" class="carousel-item active">
+                    <img class="image-anime d-block w-100" src="./images/anime-capa/6ae9dd5f-b5da-4908-a333-4a1f48882613.jpg" />
+                    <img class="logo-anime" src="./images/anime-logo/81c4b90f-30df-41d7-bcd4-3f9402de3b41.webp">
+                    <div class="carousel-caption">
+                    </div>  
+                </div>
+                <div data-bs-interval="7000" class="carousel-item">
+                    <img class="d-block w-100" src="/images/anime-capa/cdceb41d-05bf-4793-8df9-86acb4569f4e.webp" />
+                    <img class="logo-anime" src="/images/anime-logo/1323d03b-4c26-4f73-afe5-cf4e417049ba.webp">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-interval="7000" class="carousel-item">
+                    <img class="d-block w-100" src="/images/anime-capa/20f3f0d4-0fdd-458b-8aec-28961c1e91b0.webp" />
+                    <img class="logo-anime" src="/images/anime-logo/cdceb41d-05bf-4793-8df9-86acb4569f4e.webp">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" type="button" class="carousel-control-prev btn-prev-capa">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next btn-next-capa">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="conteudo">
+        <div class="row anime-list anime-list1">
+            <h1 class="titulo-divisao">Recomendações para Você</h1>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/2e7bda4ba44aa751944234541f49b790 (1).jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">TSUKIMICHI -Moonlit Fantasy-</h4>
+                        <p class="card-text resumo-anime">
+                            Makoto Misumi era um adolescente qualquer até ser invocado para ser o "herói" de outro mundo... Mas a Deusa deste novo mundo o achou feio demais, o despiu de seu papel de herói e o enviou para os confins do mundo. Nesta terra...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/e108ae17d8d0407417cac40eb52d849a.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">Black Clover!</h4>
+                        <p class="card-text resumo-anime">
+                            Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia. Enquanto Yuno possui poderes mágicos excepcionais, Asta é a única pessoa do mundo todo desprovida desse dom. Aos quinze anos, ambos recebem grimórios...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/e4a46af03edb422c90dbbd0cb0ce27bd.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">Sengoku Youko</h4>
+                        <p class="card-text resumo-anime">
+                            O mundo está dividido em duas facções: humanos e monstros chamados ""katawara"". Apesar de ser uma katawara, Tama ama os humanos e faz um juramento de protegê-los do mal, mesmo que isso signifique lutar contra sua própria espécie...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/0b2710bf5a9a23b12b79e4ddcdac4696.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">Kingdom</h4>
+                        <p class="card-text resumo-anime">
+                            Apesar de, inicialmente, começarem com o pé errado, Zheng e Xin cresceram e se tornaram companheiros. Zheng luta para unificar os estados combatentes sob Qin, enquanto Xin avança nos cargos para se tornar o Maior General. Suas ambições mudarão a história para sempre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/51217e17030bc00540316a61234a8311.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">BUCCHIGIRI?!</h4>
+                        <p class="card-text resumo-anime">
+                            O reencontro de Arajin Tomoshibi com seu antigo amigo Matakara Asamine toma um rumo inesperado quando eles se envolvem em uma briga com os caras mais durões da cidade. E quando pensamos que as coisas não poderiam ficar mais esquisitas, um gigantesco gênio decide aparecer...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/14de5c5e50b2322bfc501478ff7b7143.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">The Unwanted Undead Adventurer</h4>
+                        <p class="card-text resumo-anime">
+                            Rentt Faina tem caçado monstros nos últimos 10 anos. Infelizmente, ele não é muito bom em seu trabalho, preso a caçar slimes e goblins por algumas moedas todos os dias... Contudo, sua sorte muda quando ele encontra um caminho misterioso...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="imagem-meio">
+            <img class="img-fluid" src="/images/Capa-lista/c15305c0-e75d-458f-a0a6-d5d078325aca.png" >
+        </div>
+        <div class="row anime-list anime-list2">
+            <h1 class="titulo-divisao">Mais Populares</h1>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/5e7f533c3b4f46244ca228af62e83dfa.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">Solo Leveling</h4>
+                        <p class="card-text resumo-anime">
+                            Há mais de uma década, surgiu uma misteriosa passagem chamada "portal", que conecta este mundo a uma dimensão diferente, o que fez com que pessoas despertassem poderes únicos… e essas pessoas são chamadas de "caçadores". Os caçadores...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/8b35b4a6cffe66004f752aa147351cab.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">Classroom of the Elite</h4>
+                        <p class="card-text resumo-anime">
+                            Kiyotaka Ayanokouji acaba de se matricular no Colégio Tokyo Koudo Ikusei, onde dizem que 100% dos seus alunos entram na faculdade ou arranjam um bom emprego. Infelizmente, ele vai parar na sala 1-D, onde ficam todos os alunos problemáticos...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/f7dfe109de592c6dd9a78dc75ec1965b.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">MASHLE: MAGIA E MÚSCULOS</h4>
+                        <p class="card-text resumo-anime">
+                            Em um mundo onde todos são capazes de usar magia, há uma floresta densa e escura, onde um jovem treina sem parar. Seu nome é Mash Burnedead, e ele guarda um segredo: ele não sabe usar magia. Tudo o que ele queria era levar uma vida tranquila...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/f446d7a2a155c6120742978fb528fb82.jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">Frieren e a Jornada para o Além</h4>
+                        <p class="card-text resumo-anime">
+                            Após uma missão de 10 anos ao lado do herói Himmel e seu grupo, a poderosa maga Frieren derrotou o Rei Demônio e trouxe paz ao reino. Como uma elfa, Frieren tem uma vida de mais de mil anos pela frente. Ela promete retornar para seus amigos...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/51217e17030bc00540316a61234a8311 (1).jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">BUCCHIGIRI?!</h4>
+                        <p class="card-text resumo-anime">
+                            O reencontro de Arajin Tomoshibi com seu antigo amigo Matakara Asamine toma um rumo inesperado quando eles se envolvem em uma briga com os caras mais durões da cidade. E quando pensamos que as coisas não poderiam ficar mais esquisitas, um gigantesco gênio decide aparecer...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="lista-anime card text-bg-dark">
+                    <img src="/images/Capa-lista/2e7bda4ba44aa751944234541f49b790 (1).jpe">
+                    <div class="card-img-overlay hoverable info-imagem">
+                        <h4 class="card-title">TSUKIMICHI -Moonlit Fantasy-</h4>
+                        <p class="card-text resumo-anime">
+                            Makoto Misumi era um adolescente qualquer até ser invocado para ser o "herói" de outro mundo... Mas a Deusa deste novo mundo o achou feio demais, o despiu de seu papel de herói e o enviou para os confins do mundo. Nesta terra...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>    
+    <p>
+        &copy; - Desenvolvido por: <a href="https://www.linkedin.com/in/flávio-irala-pereira-16a2ab22b/">Flavio Irala</a> <br> 2024 - Aluno (Full Stack Python - EBAC)
+    </p>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
